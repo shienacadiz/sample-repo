@@ -1,15 +1,7 @@
-test123 -- from master
-test line 2 - from master
-line 3----- ------------ branch01
-====== branch02
+Hello world! from branch01 after merge..
 
 
 
--------------- branch01
+Test branch01 after merge
 
-
-
-
-
-branch02 2nd commit
-branch03 3rd COMMIT !!!
+branch01 -- LATEST!!!
