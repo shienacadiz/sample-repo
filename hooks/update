@@ -6,7 +6,7 @@ def check_message_format
   missed_revs.each do |rev|
     message = `git cat-file commit #{rev} | sed '1,/^$/d'`
     if !$regex.match(message)
-      puts "[POLICY] Your message is not formatted correctly"
+      puts "[POLICY] Your message is not formatted correctly. Format should be TRPAPP-99999 Your message here"
       exit 1
     end
   end
